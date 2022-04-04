@@ -11,4 +11,6 @@ public interface MotoInventoryDao {
     void deleteMotorcycle(int id);
     void updateMotorcycle(Motorcycle motorcycle);
     List<Motorcycle> getMotorcyclesByMake(String make);
+    List<Motorcycle> getMotorcyclesByType(String type);
+    List<Motorcycle> getMotorcyclesByVin(String vin);
 }
